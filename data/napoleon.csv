@@ -1,0 +1,45 @@
+date,name,category
+1793-12-22,Siege of Toulon,win
+1796-05-10,Battle of Lodi,win
+1796-11-17,Battle of Arcole,win
+1797-01-14,Battle of Rivoli,win
+1798-07-21,Battle of the Pyramids,win
+1798-08-03,Battle of the Nile,loss
+1800-06-14,Battle of Marengo,win
+1801-07-08,Battle of Algeciras,loss
+1805-10-19,Battle of Ulm,win
+1805-10-21,Battle of Trafalgar,loss
+1805-10-30,Battle of Caldiero,win
+1805-12-02,Battle of Austerlitz,win
+1806-10-14,Battle of Jena and Auerstadt,win
+1807-02-08,Battle of Eylau,loss
+1807-06-14,Battle of Friedland,win
+1808-07-16,Battle of Bailén,loss
+1809-04-19,Battle of Raszyn,loss
+1809-05-22,Battle of Aspern-Essling,loss
+1809-07-05,Battle of Wagram,win
+1809-07-27,Battle of Talavera,loss
+1812-07-22,Battle of Salamanca,loss
+1812-08-04,Battle of Smolensk,win
+1812-09-07,Battle of Borodino,win
+1812-10-24,Battle of Maloyaroslavets,loss
+1813-08-31,Battle of San Marcial,loss
+1813-09-06,Battle of Dennewitz,loss
+1813-09-16,Battle of the Göhrde,loss
+1813-09-28,Battle of Altenburg,loss
+1813-10-03,Battle of Wartenburg,loss
+1813-10-07,Battle of the Bidassoa,loss
+1813-10-14,Battle of Liebertwolkwitz,loss
+1813-10-16,Battle of Leipzig,loss
+1813-10-30,Battle of Hanau,win
+1813-11-10,Battle of Nivelle,loss
+1813-12-07,Battle of Bornhöved,loss
+1813-12-09,Battle of the Nive,loss
+1813-12-10,Battle of Sehested,loss
+1814-02-15,Battle of Garris,loss
+1814-02-27,Battle of Orthez,loss
+1814-03-30,Battle of Paris,loss
+1814-04-10,Battle of Toulouse,loss
+1814-04-14,Battle of Bayonne,loss
+1815-06-16,Battle of Ligny,win
+1815-06-18,Battle of Waterloo,loss
