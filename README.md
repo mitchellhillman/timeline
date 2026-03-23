@@ -2,7 +2,7 @@
 
 ![Timeline screenshot](timeline.png)
 
-A browser-based tool for visualizing historical events as an interactive SVG timeline.
+A simple tool for visualizing historical events as a timeline. Exports as SVG
 
 ## Usage
 
@@ -20,7 +20,7 @@ date,name,category
 
 - **date** — ISO format (`YYYY-MM-DD`). Ancient dates should be zero-padded (e.g. `0034-01-01`)
 - **name** — Event label. Emojis are supported
-- **category** *(optional)* — Groups events by color. Multiple categories are assigned colors from the palette in order of first appearance
+- **category** _(optional)_ — Categories are assigned colors from the palette in order of first appearance. If no category value set, the background is white.
 
 Click **Example CSV** in the app to download a sample file illustrating the format.
 
@@ -28,10 +28,10 @@ Click **Example CSV** in the app to download a sample file illustrating the form
 
 The `data/` folder includes ready-to-use datasets:
 
-| File | Description |
-|------|-------------|
-| `napoleon.csv` | Napoleon's major battles (1793–1815), categorized as `win` or `loss` |
-| `early_christianity.csv` | Key events in early Christian history (34–312 AD), with `gospel` category for scripture-related events |
+| File                     | Description                                                                                                 |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| `napoleon.csv`           | Napoleon's major battles (1793–1815), categorized as `win` or `loss`                                        |
+| `early_christianity.csv` | Key events in early Christian history (34–312 AD), with `gospel` category for events realted to authorship. |
 
 ## Features
 
