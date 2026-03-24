@@ -2,6 +2,8 @@
 
 ![Timeline screenshot](timeline.png)
 
+**Live site: https://mitchellhillman.github.io/timeline/**
+
 A simple tool for visualizing historical events as a timeline. Exports as SVG
 
 ## Usage
