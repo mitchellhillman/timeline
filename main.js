@@ -433,6 +433,17 @@ function render() {
   container.appendChild(svg);
 }
 
+// --- Palette persistence ---
+
+function savePalette() {
+  localStorage.setItem("timeline-palette", JSON.stringify(categoryPalette));
+}
+
+const savedPalette = localStorage.getItem("timeline-palette");
+if (savedPalette) {
+  try { categoryPalette = JSON.parse(savedPalette); } catch {}
+}
+
 // --- Palette UI ---
 
 function renderPalette() {
@@ -450,6 +461,7 @@ function renderPalette() {
     removeBtn.addEventListener("click", (e) => {
       e.stopPropagation();
       categoryPalette.splice(idx, 1);
+      savePalette();
       rebuildCategoryColors();
       renderPalette();
       render();
@@ -464,6 +476,7 @@ function renderPalette() {
     input.addEventListener("input", (e) => {
       categoryPalette[idx] = e.target.value;
       swatch.style.background = e.target.value;
+      savePalette();
       rebuildCategoryColors();
       render();
     });
@@ -478,6 +491,7 @@ function renderPalette() {
   addBtn.textContent = "+";
   addBtn.addEventListener("click", () => {
     categoryPalette.push("#cccccc");
+    savePalette();
     rebuildCategoryColors();
     renderPalette();
     render();
